@@ -1,0 +1,25 @@
+Dolphin Values:
+===============
+speed
+0x801eb834
+0x801eb864
+
+Lua Core Dolphin Values:
+=========================
+speed
+0x001EB834
+0x001EB864
+
+position
+x: 0x001862C0
+y: 0x001862C4
+z: 0x001862C8
+x: 0x001AA6F0
+y: 0x001AA6F4
+z: 0x001AA6F8
+x: 0x001AA710
+y: 0x001AA714
+z: 0x001AA718
+x: 0x001AA720
+y: 0x001AA724
+z: 0x001AA728
