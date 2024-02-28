@@ -20,6 +20,7 @@ function onScriptUpdate()
     text = text .. string.format("X Position: %.3f\n", core.getXpos() * 1e2)
     text = text .. string.format("Y Position: %.3f\n", core.getYpos() * 1e2)
     text = text .. string.format("Z Position: %.3f\n", core.getZpos() * 1e2)
+    text = text .. string.format("Session Timer: %.2f\n", core.getSessionCounter() * 1e43)
 
     SetScreenText(text)
 end
