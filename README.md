@@ -15,7 +15,7 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 
 ## How to Install
 
-1. Ensure you have Lua Core Dolphin installed. If not, download it from [Lua Core Dolphin GitHub page](https://github.com/SwareJonge/Dolphin-Lua-Core).
+1. Ensure you have Lua Core Dolphin installed. If not, download it from [Lua Core Dolphin GitHub page](https://github.com/TASLabz/dolphin-lua-core).
 2. Place the Lua scripts in the following directory: `[Dolphin Emulator Directory]/Scripts/Sys/`.
 3. **Tip**: To automatically run a script on start, append its filename with an underscore (e.g., `_dm2_stats.lua`).
 
