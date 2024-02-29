@@ -15,7 +15,6 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 - show height
 - show current zone of area
 - show current competition calculations
-- show player character
 - show area name
 
 
@@ -26,6 +25,9 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 - X, Y, Z Position: Shows location of player in the map. (Calculations not finalized)
 ~~- Session Timer: Timer that starts at the beginning of any session. Will also reflect in replays~~
 - Is Airborne: Shows if user is airborne
+- Character: Shows current character plus character ID
+- Bike Level: Shows current bike level (1 -> 5)
+- Stage: Shows current stage with stage ID
 
 ## How to Install
 
@@ -38,3 +40,6 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 1. Launch Dave Mirra Freestyle BMX 2 in Dolphin Emulator.
 2. (If you didn't underscore your file) Load the Lua scripts through the Dolphin Emulator interface. (View -> Execute Script)
 3. Enjoy enhanced debug output and additional features during gameplay!
+
+- Note, do NOT underscore the Core file. It is used for REFERENCE, not for EXECUTION.
+It won't blow up, it just won't do anything. 

@@ -23,6 +23,9 @@ function onScriptUpdate()
     text = text .. string.format("Z Position: %.3f\n", core.getZpos())
     -- text = text .. string.format("Session Timer: %.2f\n", core.getSessionCounter())
     text = text .. string.format("Is Airborne: %s\n", core.isAirborne())
+    text = text .. string.format("Character: %s\n", core.getCharacter())
+    text = text .. string.format("Bike Level: %s\n", core.getBike())
+    text = text .. string.format("Stage: %s\n", core.getStage())
 
     SetScreenText(text)
 end
