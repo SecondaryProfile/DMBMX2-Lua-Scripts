@@ -7,6 +7,10 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 - **Core/DM2_Core.lua**: Contains all the necessary structures and functions.
 - **dm2_stats.lua**: Provides a text overlay with stats.
 
+## Screenshot
+
+![Screenshot](Screenshot.png)
+
 ## Todos
 
 - Incorporate more detailed stats.
