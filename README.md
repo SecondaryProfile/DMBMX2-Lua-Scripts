@@ -12,13 +12,21 @@ This Lua suite enhances Dave Mirra Freestyle BMX 2 gameplay by providing debug o
 - Incorporate more detailed stats.
 - Implement TAS (Tool-Assisted Speedruns) recordings.
 - Enhance memory manipulation for additional functionalities.
+- show height
+- show current zone of area
+- show current competition calculations
+- show player character
+- show area name
 
 
 ## Current Debug Features
 
+- Frame Count: frame count
 - Speed: Shows players speed value
 - X, Y, Z Position: Shows location of player in the map. (Calculations not finalized)
-- Session Timer: Timer that starts at the beginning of any session. Will also reflect in replays
+~~- Session Timer: Timer that starts at the beginning of any session. Will also reflect in replays~~
+- Is Airborne: Shows if user is airborne
+
 ## How to Install
 
 1. Ensure you have Lua Core Dolphin installed. If not, download it from [Lua Core Dolphin GitHub page](https://github.com/TASLabz/dolphin-lua-core).

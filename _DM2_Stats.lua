@@ -16,11 +16,13 @@ function onScriptUpdate()
 
     text = ""
     text = text .. "Player Info\n\n"
-    text = text .. string.format("Speed: %.3f\n", core.getPlayerSpeed() * 1e43)
-    text = text .. string.format("X Position: %.3f\n", core.getXpos() * 1e2)
-    text = text .. string.format("Y Position: %.3f\n", core.getYpos() * 1e2)
-    text = text .. string.format("Z Position: %.3f\n", core.getZpos() * 1e2)
-    text = text .. string.format("Session Timer: %.2f\n", core.getSessionCounter() * 1e43)
+    text = text .. string.format("Frame Count: %.0f\n", GetFrameCount())
+    text = text .. string.format("Speed: %.3f\n", core.getPlayerSpeed())
+    text = text .. string.format("X Position: %.3f\n", core.getXpos())
+    text = text .. string.format("Y Position: %.3f\n", core.getYpos())
+    text = text .. string.format("Z Position: %.3f\n", core.getZpos())
+    -- text = text .. string.format("Session Timer: %.2f\n", core.getSessionCounter())
+    text = text .. string.format("Is Airborne: %s\n", core.isAirborne())
 
     SetScreenText(text)
 end
